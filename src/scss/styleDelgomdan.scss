@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+
+@import 'ej1Delgomdan';
+@import 'ej2Delgomdan';
+@import 'ej3Delgomdan';
+
+.delgomdan{
+    &__Menu{
+        background-color: lightblue;
+        display: flex;
+        padding: 10px;
+        & a{
+            text-align: center;
+            margin-right: .5rem;
+            border: 1px solid black;
+            padding: 5px;
+            border-radius: 5px;
+            color: black;
+            text-decoration: none;
+            &:hover{
+                background-color: rgb(195, 240, 255);
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 650px){
+    .delgomdan{
+        &__Menu{
+            flex-direction: column;
+            & a{
+                margin-top: .5rem;
+                margin-right: 0;
+            }
+        }
+    }
+}
