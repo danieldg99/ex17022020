@@ -4,7 +4,7 @@ import {Link, Router} from '@reach/router';
 import Distribucion1delgomdan from './Distribucion1delgomdan';
 import Distribucion2delgomdan from './Distribucion2delgomdan';
 import Distribucion3delgomdan from './Distribucion3delgomdan';
-import Pruebas from './Pruebas';
+import Pruebas from './PruebasDelgomdan';
 
 function App() {
   return (

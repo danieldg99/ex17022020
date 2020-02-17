@@ -5,7 +5,7 @@ import Image from 'react-image';
 class Distribucion3delgomdan extends Component{
     render(){
         return(
-            <div class="delgomdan__Ej3">
+            <div className="delgomdan__Ej4">
 
                 <a href="./img/Paisaje1.jpg" target="_blank"><Image src={require('./img/Paisaje1.jpg')} alt="paisaje1.jpg" title="Paisaje 1" /></a>
                 <a href="./img/Paisaje2.jpg" target="_blank"><Image src={require('./img/Paisaje2.jpg')} alt="paisaje2.jpg" title="Paisaje 2" /></a>

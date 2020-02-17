@@ -3,17 +3,17 @@ import React, { Component } from "react";
 class Distribucion1delgomdan extends Component{
     render(){
         return(
-            <div class="delgomdan__Ej1">
+            <div className="delgomdan__Ej2">
 
-                <header class="delgomdan__Ej1header">Cabecera</header>
+                <header className="delgomdan__Ej2header">Cabecera</header>
 
-                <main class="delgomdan__Ej1main"> 
-                    <aside class="delgomdan__Ej1aside">Barra Lateral Izquierda</aside>
-                    <section class="delgomdan__Ej1section">Sección principal</section>
-                    <aside class="delgomdan__Ej1aside">Barra Lateral Derecha</aside>
+                <main className="delgomdan__Ej2main"> 
+                    <aside className="delgomdan__Ej2aside">Barra Lateral Izquierda</aside>
+                    <section className="delgomdan__Ej2section">Sección principal</section>
+                    <aside className="delgomdan__Ej2aside">Barra Lateral Derecha</aside>
                 </main>
 
-                <footer class="delgomdan__Ej1footer">Pie</footer>
+                <footer className="delgomdan__Ej2footer">Pie</footer>
             </div>
         )
     }
